@@ -1,0 +1,30 @@
+﻿<!DOCTYPE>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        #dynamicTable
+        {
+            width:100%;
+        }
+        #dynamicTable td
+        {
+            border:1px solid;
+        }
+    </style>
+    <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script src="js/DynamicTable.js" type="text/javascript"></script>
+    <script src="js/DynamicTable.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var dt = new DynamicTable('#dynamicTable');
+        });
+    </script>
+</head>
+<body>
+    <div style="direction:rtl;">
+        <table id="dynamicTable" style="width:100%;">
+        </table>
+    </div>
+</body>
+</html>

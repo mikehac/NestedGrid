@@ -1,0 +1,10 @@
+c:\documents and settings\bella\my documents\visual studio 2010\Projects\test\test\bin\test.dll
+c:\documents and settings\bella\my documents\visual studio 2010\Projects\test\test\bin\test.pdb
+c:\documents and settings\bella\my documents\visual studio 2010\Projects\test\test\obj\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\bella\my documents\visual studio 2010\Projects\test\test\obj\Debug\test.dll
+c:\documents and settings\bella\my documents\visual studio 2010\Projects\test\test\obj\Debug\test.pdb
+E:\My Documents\Visual Studio 2012\Projects\test\test\bin\test.dll
+E:\My Documents\Visual Studio 2012\Projects\test\test\bin\test.pdb
+E:\My Documents\Visual Studio 2012\Projects\test\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+E:\My Documents\Visual Studio 2012\Projects\test\test\obj\Debug\test.dll
+E:\My Documents\Visual Studio 2012\Projects\test\test\obj\Debug\test.pdb
