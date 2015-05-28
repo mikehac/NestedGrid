@@ -25,7 +25,8 @@
                                 success: function (resp, status, req) {
                                     var innerTR = '';
                                     $.each(resp, function (index, item) {
-                                        innerTR += '<tr class="detailRows_' + parentID + '"><td></td><td>' + item.Name + '</td><td></td><td></td><td>' + item.Total.toString() + '</td></tr>';
+                                        var img = '<img id="img_' + item.ChildId.toString() + '" src="/images/plus.jpg" />';
+                                        innerTR += '<tr class="detailRows_' + parentID + '"><td></td><td>' + img + item.Name + '</td><td></td><td></td><td>' + item.Total.toString() + '</td></tr>';
                                     });
 
                                     selectedElement.parent().parent().after(innerTR);

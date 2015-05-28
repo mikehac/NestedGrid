@@ -8,3 +8,5 @@ E:\My Documents\Visual Studio 2012\Projects\test\test\bin\test.pdb
 E:\My Documents\Visual Studio 2012\Projects\test\test\obj\Debug\test.csprojResolveAssemblyReference.cache
 E:\My Documents\Visual Studio 2012\Projects\test\test\obj\Debug\test.dll
 E:\My Documents\Visual Studio 2012\Projects\test\test\obj\Debug\test.pdb
+E:\My Documents\Visual Studio 2012\Projects\test\test\bin\test.dll.CodeAnalysisLog.xml
+E:\My Documents\Visual Studio 2012\Projects\test\test\bin\test.dll.lastcodeanalysissucceeded
