@@ -2,17 +2,33 @@
 <html ng-app="DynamicGrid">
 <head>
     <title></title>
+    <style type="text/css">
+        table td
+        {
+            border: 1px solid;
+        }
+    </style>
     <script type="text/javascript" src="js/angular.min.js"></script>
     <script type="text/javascript" src="js/DynamicTableAngular.js"></script>
 </head>
 <body ng-controller="MainController" dir="rtl">
-    <table style="width:800px;border:1px solid;">
-        <tr ng-repeat="acc in accounts">
-            <td>{{acc.PropertyName}}</td>
-            <td></td>
-            <td></td>
-            <td>{{acc.Total}}</td>
-        </tr>
+    <table style="width: 800px; border: 1px solid;">
+        <tbody ng-repeat="acct in accTypes">
+            <tr>
+                <td>
+                    <img ng-src="{{imgSrc}}" ng-click="GetFirstLevel(acct.PropertyId)" />
+                    {{acct.PropertyName}}
+                </td>
+                <td></td>
+                <td></td>
+                <td>{{acct.Total}}</td>
+            </tr>
+            <tr ng-repeat="acc in accounts">
+                <td></td>
+                <td>{{acc.Name}}</td>
+                <td></td>
+            </tr>
+        </tbody>
     </table>
 </body>
 </html>
