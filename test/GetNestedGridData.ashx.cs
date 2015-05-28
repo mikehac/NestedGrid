@@ -104,6 +104,7 @@ namespace test
         }
     }
 
+    #region Assist Classes
     public class ParrentNode
     {
         public int PropertyId { get; set; }
@@ -118,4 +119,5 @@ namespace test
         public float Total { get; set; }
         public int ParentPropertyId { get; set; }
     }
+    #endregion
 }
