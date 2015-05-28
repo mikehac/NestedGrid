@@ -65,13 +65,14 @@ namespace test
         ChildNode1[] GetChildrenByID(int parentID)
         {
             List<ChildNode1> cn = new List<ChildNode1>();
+            Random random = new Random();
             for (int i = 0; i < 5; i++)
             {
                 cn.Add(new ChildNode1()
                 {
-                    Id = i,
+                    ChildId = i,
                     ParentPropertyId = 1,
-                    Name = "חשבון 123",
+                    Name = "חשבון " + random.Next(100, 200).ToString(),
                     Total = i * 3.14f
                 });
             }
@@ -80,9 +81,9 @@ namespace test
             {
                 cn.Add(new ChildNode1()
                 {
-                    Id = i,
+                    ChildId = i,
                     ParentPropertyId = 2,
-                    Name = "חשבון 957",
+                    Name = "חשבון " + random.Next(201, 300).ToString(),
                     Total = i * 3.14f
                 });
             }
@@ -91,9 +92,9 @@ namespace test
             {
                 cn.Add(new ChildNode1()
                 {
-                    Id = i,
+                    ChildId = i,
                     ParentPropertyId = 3,
-                    Name = "חשבון 348",
+                    Name = "חשבון " + random.Next(301, 400).ToString(),
                     Total = i * 3.14f
                 });
             }
@@ -112,9 +113,9 @@ namespace test
 
     public class ChildNode1
     {
-        public int ParentPropertyId { get; set; }
-        public int Id { get; set; }
+        public int ChildId { get; set; }
         public string Name { get; set; }
         public float Total { get; set; }
+        public int ParentPropertyId { get; set; }
     }
 }

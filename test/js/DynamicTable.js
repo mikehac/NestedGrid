@@ -7,7 +7,7 @@
             success: function (resp, status, req) {
                 var tr = '';
                 $.each(resp, function (index, item) {
-                    var img = '<img id="img_' + (index + 1).toString() + '" src="/images/plus.jpg" />';
+                    var img = '<img id="img_' + (item.PropertyId).toString() + '" src="/images/plus.jpg" />';
                     tr += '<tr><td>' + img + item.PropertyName + '</td><td></td><td></td><td></td><td>' + item.Total + '</td></tr>';
                 });
 

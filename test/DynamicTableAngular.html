@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html ng-app="DynamicGrid">
+<head>
+    <title></title>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/DynamicTableAngular.js"></script>
+</head>
+<body ng-controller="MainController" dir="rtl">
+    <table style="width:800px;border:1px solid;">
+        <tr ng-repeat="acc in accounts">
+            <td>{{acc.PropertyName}}</td>
+            <td></td>
+            <td></td>
+            <td>{{acc.Total}}</td>
+        </tr>
+    </table>
+</body>
+</html>
